@@ -1,0 +1,59 @@
+MY INTEGRATION SPACE — LOCAL REBUILD
+
+OPEN THE WEBSITE
+Open index.html in your browser. All internal page links work directly from local files.
+Alternatively, open the whole folder in VS Code and use a local preview server.
+No installation or build step is required for this website.
+
+EDITING
+index.html                  Homepage
+about-me/index.html         About Milena
+services/index.html         Services and prices
+events/index.html           Events
+contact/index.html          Contact and consultation settings
+form/index.html             Guided practice (delivery connection pending)
+privacy/index.html          Placeholder for an approved privacy notice
+assets/styles.css           Colours, fonts and layouts
+assets/site.js              Mobile menu and missing-image handling
+images/                     Your downloaded images, kept in place
+
+IMAGE PLACEHOLDERS
+MISSING-IMAGES.txt lists the exact filenames each page is looking for.
+Put the matching file directly into images/ and refresh the page.
+If a photograph has a different filename, tell the assistant the filename and where it belongs.
+Existing images also use files within images/My Integration Space_files/.
+Do not delete that folder until those image references have been moved.
+The saved WordPress scripts and styles in that folder are not used by this rebuild.
+
+WHAT IS CONNECTED
+Booking buttons link to the Calendly address found in the original site's popup code:
+https://calendly.com/milena-myintegrationspace/20min
+Email links use milena@myintegrationspace.com.
+Original Eventbrite and future-events Google Form links have been preserved.
+Google Maps opens externally.
+These links still need owner confirmation and an end-to-end review before launch.
+
+STILL TO COMPLETE
+Missing images and botanical background imagery.
+Confirm current prices, qualifications, event dates, addresses and service descriptions.
+Guided practice signup: confirm email platform and how the practice is delivered.
+Supply the original contact-page video if wanted.
+Resourcing Sanctuary: provide its intended destination.
+Privacy notice: supply approved wording; current page is explicitly a placeholder.
+Review mobile and desktop content together before publication.
+Remove the preview banners and robots noindex tags when ready to launch.
+Fonts currently load from Google Fonts, with local system fallbacks.
+
+MIGRATION NOTES
+This is a new static implementation using the existing public content, not a WordPress installation.
+Core page paths are preserved: /about-me/, /services/, /events/, /contact/, /form/.
+The old service anchors are retained and mapped to their relevant headings.
+Testimonials are displayed as readable static quotations rather than an autoplay carousel.
+The duplicate navigation from the original homepage has been consolidated.
+No email signup submissions are collected by this draft.
+No domain settings, GitHub repository or live website have been changed.
+Before switching hosting, preserve the domain's email records and establish whether email depends on the old host.
+
+Publishing later: choose this folder as the site root. Cloudflare Pages framework None,
+no build command, output directory dot (.).
+Do not upload original saved WordPress pages or unused scripts for the final release; prepare a clean deployment copy first.
